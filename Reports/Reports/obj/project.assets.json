@@ -9585,11 +9585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Reports\\Reports\\Reports.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\john1279\\CanadasiReports\\Reports\\Reports\\Reports.csproj",
       "projectName": "Reports",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\Reports\\Reports\\Reports.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\john1279\\CanadasiReports\\Reports\\Reports\\Reports.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\Reports\\Reports\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\john1279\\CanadasiReports\\Reports\\Reports\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
