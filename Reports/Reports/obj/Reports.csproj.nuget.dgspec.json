@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\john1279\\CanadasiReports\\Reports\\Reports\\Reports.csproj": {}
+    "C:\\Users\\jorge\\Source\\Repos\\CanadasiReports\\Reports\\Reports\\Reports.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\john1279\\CanadasiReports\\Reports\\Reports\\Reports.csproj": {
+    "C:\\Users\\jorge\\Source\\Repos\\CanadasiReports\\Reports\\Reports\\Reports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\john1279\\CanadasiReports\\Reports\\Reports\\Reports.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\Source\\Repos\\CanadasiReports\\Reports\\Reports\\Reports.csproj",
         "projectName": "Reports",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\john1279\\CanadasiReports\\Reports\\Reports\\Reports.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\john1279\\CanadasiReports\\Reports\\Reports\\obj\\",
+        "projectPath": "C:\\Users\\jorge\\Source\\Repos\\CanadasiReports\\Reports\\Reports\\Reports.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorge\\Source\\Repos\\CanadasiReports\\Reports\\Reports\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
