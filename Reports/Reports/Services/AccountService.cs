@@ -15,13 +15,6 @@ namespace Reports.Services
         public readonly IServiceScopeFactory scopeFactory;
         public readonly ILogger<AccountService> logger;
 
-        private ImmigrationDbContext ObtenerContexto()
-        {
-            using var scope = scopeFactory.CreateScope();
-            var context = scope.ServiceProvider.GetRequiredService<ImmigrationDbContext>();
-            return context;
-        }
-
         public AccountService(ILogger<AccountService> _logger, IServiceScopeFactory _scopeFactory)
         {
             logger = _logger;
@@ -30,10 +23,14 @@ namespace Reports.Services
 
         public List<ImmigrationAccount> ObtenerTodo()
         {
-            var context = ObtenerContexto();
-            var resultado = context.immigrationAccounts;
+            using var scope = scopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<ImmigrationDbContext>();
+
+            var hola = context.immigrationAccounts.Where(ia => ia.Name == "ARTEFACTUAL SYSTEMS INC.");
+
             //logger.LogInformation("resultado: {0}", hola.Id);
-            return resultado.ToList();
+
+            return hola.ToList();
         }
     }
 

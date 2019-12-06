@@ -7,15 +7,29 @@ using System.Threading.Tasks;
 
 namespace Reports.Models
 {
-    [Table("accounts")]
+    [Table("leads")]
     public class ImmigrationLeads
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.None)]
-        [Column("'date_entered'")]
-        public Guid Id { get; set; }
 
-        [Column("name")]
-        public string Name { get; set; }
+        [Column("first_name")]
+        public string first_name { get; set; }
+
+
+        [Column("department")]
+        public Guid department { get; set; }
+
+        [Column("status")]
+        public Guid status { get; set; }
+
+        [Column("date_entered")]
+        public string date_entered { get; set; }
+
+        [Column("lead_source_description")]
+        public Guid lead_source_description { get; set; }
+
+        [Column("status_description")]
+        public string status_descriptiond { get; set; }
     }
 }

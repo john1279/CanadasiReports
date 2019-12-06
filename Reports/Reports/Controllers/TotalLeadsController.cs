@@ -36,10 +36,9 @@ namespace Reports.Controllers
         public IActionResult Index(TotalLeads totalLeads)
         {
             //return View(await _context.TotalLeads.ToListAsync());
-            //totalLeadsService.ObtenerLista();
 
-            totalLeads.Date1 = DateTime.Now;
-            totalLeads.Date2 = DateTime.Now;
+            totalLeadsService.ObtenerLista();
+
 
             return View(totalLeads);
         }
